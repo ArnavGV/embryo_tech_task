@@ -1,0 +1,356 @@
+<html>
+    <header>
+        <title>BITS Embryo</title>
+        <link href="img/favicon.png" rel="image/icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+    </header>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        p {
+            color: #505050;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            line-height: 2;
+                margin-bottom: 20px;
+        }
+        #header{
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            z-index: 5;
+            top: 0;
+            margin-top: 0;
+            height:10%;
+            font-family: "Roboto";
+            width:90%;
+            margin-left: 10%;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+        #navbardiv{
+            margin-left: 24%;
+            margin-top: 6px;
+            width: 60%;
+            font-size: 14px;
+        }
+        .navbar{
+            display: inline-block;
+            padding: 2px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            text-align: center;
+            padding: 16px;
+            font-size: 12px;
+            margin-right: 0;
+        }
+        .navbar:hover{
+            color: #71c55d;
+        }
+        .navbar:active{
+            color: #71c55d;
+        }
+        #lec a, #gs_button{
+            display: inline-block;
+            padding: 10px 40px 10px 40px;
+            border-radius: 50px;
+            border: 2px solid #71c55d;
+            color: #71c55d;
+        }
+        #gs_button:hover{
+            color:white;
+            background-color: #71c55d;
+        }
+        #past_talks:hover{
+            text-decoration: underline;
+            color:blue
+        }
+        .webpage{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: "Roboto";
+            width:70%;
+            margin-left: 15%;
+        }
+        #to_top{
+            display: block;
+            background-color: #71c55d;
+            color:white;
+            size: 25px;
+            position: fixed;
+            margin-left: 96%;
+            top:93%;    
+            padding: 8px 12px 4px 12px;
+            border-radius: 4px;
+            z-index: 1000;
+        }
+        #lec_table{
+            border-spacing: 20px;
+        }
+        #stu_team{
+            border-spacing: 20px;
+            margin-left: -5%;
+        }
+        .st_team_mem{
+            width: 25%;
+        }
+        .lecturers{
+            width: 25%;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .st_team_mem:hover, .lecturers:hover{
+            box-shadow: 0px -2px 5px 6px rgba(0,0,0,0.07);
+        }
+        .lecturers img {
+            width: 150px;
+            height: 150px;
+            margin-top: 10%;
+            margin-bottom: 20%;
+        }
+        .con_details{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            margin-left: 40%;
+            width:100%;
+        }
+        #footer{
+            display: block;
+            background-color:#2a2c30;
+            margin-left: -10%;
+            height: 12%;
+            margin-bottom: -20%;
+            margin-right: -10%;
+        }
+        .socials{
+            display: inline-block;
+            background-color: #71c55d;    
+            padding: 8px 8px 8px 8px;
+            border-radius: 24px;
+        }
+        h3 {
+            color: #000;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        li {
+            color: #494949;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            line-height: 25px;
+            text-transform: capitalize;
+        }
+    </style>
+    <body style="overflow-x: hidden;">
+        <a href="#body" id="to_top">^</a>
+        <div id="header" style="width: 100%;">
+            <h1 id="logo" style="font-size:22px ;"><a href="#body">BITS<a href="#body" style="color:#71c55d">embryo</a></a></h1>
+            <div id="navbardiv">
+                <a href="#body" class="navbar">Home</a>
+                <a href="#about" class="navbar">About</a>
+                <a href="#lec" class="navbar">Lectures</a>
+                <a href="#aic" class="navbar">Apogee Innovation Challenge</a>
+                <a href="#team" class="navbar">Team</a>
+                <a href="#contact" class="navbar">Contact</a>
+            </div>
+            
+        </div>
+    <div class="webpage">
+        <div id="body">
+            
+            <br><br>
+            <center><h1 style="color:#71c55d;">Welcome to BITS Embryo</h1>
+            <h4>BITS Embryo</h4><br>
+            <img src="img/hero-img.png" style="width: 70%;"><br><br>
+            <a href="#home" id="gs_button">Get Started</a></center>
+        </div>
+        
+        <div id="home">
+            <br><br>
+            <br><br>
+            <br><br>
+            <center><h1 class="sub_title">BITS Embryo</h1></center>
+            <br>
+            <br>
+            <p>Embryo is a project to foster strong collaboration of BITS students and BITS faculty with the alumni and friends of BITS Pilani. Through lecture series and collaborative projects, the students can get exposure to the cutting edge research areas. They also get an opportunity to network with Alumni and friends of BITS, who are reputed academicians and industry leaders. We aim to leverage BITSConnect to bring the alumni closer to the students and faculty. Each and every alumnus can contribute his most valuable resources to BITS Pilani - knowledge and experience. The approach is three-fold: Complement BITS courses through video lecture series Facilitate collaborative research projects between alumni and BITS Expose students to current research trends and provide guidance for pursuing research projects On Jan 9, 2013, BITSConnect 2.0 was inaugurated. A multi-million dollar project which brings state of the art telepresence and interconnectivity to the campuses of BITS; it provides Embryo the platform to conduct high-quality cross campus talks, and to further enhance the remote learning experience that it has been providing across all the campuses for some time now. Embryo aims to help BITS Pilani students become Leaders, Innovators and Entrepreneurs of tomorrow. You can also contribute to Project Embryo. Register with us and we shall get in touch shortly.</p>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+
+        </div>
+        
+        <div id="about">
+            <br><br>
+            <br><br>
+            <br><br>
+            <center><h1 class="sub_title">About Us</h1></center>
+            <p>Embryo is a forum for on-line, live and interactive lectures, run by students and faculties of BITS-Pilani. It was conceived and initiated by a group of 6 BITS Pilani Alumni in the Silicon Valley in 2006 with an aim to transform classroom education. Since February, 2006, more than 200 lectures have been successfully conducted in areas as wide ranging as Entrepreneurship, Black Holes, Solar Cells, Science of Smell, Naxalism, Rain water harvesting,Storage Networks, PSOCs, Process Control. In August 2010, Embryo 2.0 was launched. Since then we have conducted a series of lectures. The lecturer works closely with the course faculty and in a few cases, the lecture content is subject to evaluative components. The knowledge of the alumni has thus become an integral part of the BITS curriculum.</p>
+            <br>
+            <h3>Vision</h3>
+            <p>
+                Enrich the learning experience at BITS Pilani.
+            </p>
+            <br>
+            <h3>Mission</h3>
+            <p>
+               
+                To make the academic and industrial experience of the BITS alumni accessible to on-campus students through lectures, collaborative research projects, and exposure to current research trends around the world.
+            </p>
+            <br>
+            <h3>Why Embryo</h3>
+            <p>
+               
+                Although there is no alternative to 'in person' classroom teaching, any University in the world is limited by its on-campus human resources and available expertise. Often, a lecture or two in the right area by the right person can change the course of one's career. Embryo proposes to free education from the barriers of distance, time and human resources. Leveraging web-based technologies, Embryo acts as a bridge between the knowledge seekers (students), and the potential speakers. Such a powerful method truly realizes the dream of border less classrooms and bottomless learning resources
+            </p>
+            <br>
+            <h3>Available Infrastructure</h3>
+            <p>
+                
+                With the advent of BITS Connect2.0 , we now have state of the art telepresence solutions across all campuses thus making the experience even richer.
+            </p>
+            <br>
+            <h3>About BITS Pilani</h3>
+            <p>
+                
+                Birla Institute of Technology and Science (BITS), Pilani is a Leading University in India offering degrees in Engineering, Management, Pharmacy, Sciences, Engineering Technology, Information Systems, General Studies, Finance etc presently at Pilani, Dubai, Goa and Hyderabad campuses. BITS Pilani also offers an array of work integrated learning programmes for HRD of a vast spectrum of Indian corporates.
+            </p>
+            <br>
+            <h3>About BITSAA</h3>
+            <p>
+                
+                BITSAA International Inc. is a not-for-profit organization. The primary purpose of BITSAA International is to engage in charitable and educational activities by raising funds for setting up endowments, creating scholarships, rewarding teaching and research and generally promoting the development of resources at Birla Institute of Technology & Science at Pilani. BITSAA International also aims to strengthen the ties, friendship and communications amongst former students, current students, faculty and friends of the Institute. BITSAA International provides a number of channels for people to stay connected with each other and the Birla Institute of Technology & Science.
+            </p>
+            <br><br>
+            <br><br>
+            <br><br>
+        </div>
+        <div id="lec">
+            <br><br>
+            <br><br>
+            <br><br>
+            <center><h1>Previous Lectures</h1></center>
+            <br>
+            <br>
+            <table id="lec_table">
+                <tr>
+                    <td class="lecturers"><img src="img/rjea.jpg"><h4>ENVIRONMENT AND SUSTAINABILITY<br><br> RHEA MAZUMDAR SINGHAL</h4><p>Rhea Mazumdar Singhal is an entrepreneur who is founder and CEO of Ecoware, India's largest sustainable packaging company</p><h4>6 June, 2021</h4></td>
+                    <td class="lecturers"><img src="img/jayanth.jpg"><h4>WILDLIFE PHOTOGRAPHY<br><br>JAYANTH SHARMA</h4><p>Jayanth Sharma is a professional wildlife photographer. He is co-founder and CEO at Toehold, a travel and photography company. He is a Sony Ambassador.</p><h4>4 June, 2021</h4></td>
+                    <td class="lecturers"><img src="img/varun.png"><h4>GRE PANEL DISCUSSION<br><br>VARUN NAYAK</h4><p>Varun Nayak is an alumnus of BITS Pilani, Goa campus where he recieved his Bachelor's in Mechanical Engineering. With a GRE score of 327/340</p><h4>3 April, 2021</h4></td>
+                    <td class="lecturers"><img src="img/abhi.jpg"><h4>GRE PANEL DISCUSSION<br><br>ABHIJITH ASOK</h4><p>Abhijith Asok is an alumnus of BITS Pilani, Goa campus. He scored an outstanding 329/340 in the GRE examination and 117/120 in the TOEFL</p><h4>3 April, 2021</h4></td>
+                </tr>
+                <tr>
+                    <td class="lecturers"><img src="img/anjali.jpg"><h4>GRE PANEL DISCUSSION<br><br> ANJALI MAHESHWARI</h4><p>335/340, Offered for Masters in Chemical Engineering</p><h4>3 April, 2021</h4></td>
+                    <td class="lecturers"><img src="img/sakshi.jpg"><h4>GRE PANEL DISCUSSION<br><br>SAKSHI AGARWAL</h4><p>332/340, Offered for Masters in Electrical Engineering</p><h4>3 April, 2021</h4></td>
+                    <td class="lecturers"><img src="img/ritika.jpg"><h4>CAREER IN FINANCE<br><br>RITIKA KARNANI</h4><p>Ritika Karnani is an alumnus of BITS Pilani and graduated in 2015. She recently completed her MBA from INSEAD, France</p><h4>21 March, 2021</h4></td>
+                    <td class="lecturers"><img src="img/kate.jpg"><h4>LIFE OUTSIDE EARTH<br><br>KATE ADAMALA</h4><p>Kate Adamala is an alumnus of Harvard University and specialises in the fields of Synthetic Biology, Astrobiology and Bioengineering.</p><h4>13 February, 2021</h4></td>
+                </tr>
+                <tr>
+                    <td class="lecturers"><img src="img/anirudh.jpg"><h4>VENTURE CAPITALIST<br><br>ANIRUDH DAMANI</h4><p>Anirudh Damani is an alumnus of the prestigious Austin College, Texas and Managing Partner at Artha Ventures, India’s first Micro VC firm</p><h4>6 February, 2021</h4></td>
+                    <td class="lecturers"><img src="img/sp.jpg"><h4>BEING BITSIAN IN RETROSPECT<br><br>DR.S.P. KOTHARI</h4><p>Dr. S.P. Kothari graduated from BITS Pilani, Pilani campus with a BE (Hons.) in Chemical Engineering, he was also a Padma Shree Awardee</p><h4>30 January, 2021</h4></td>
+                    <td class="lecturers"><img src="img/pradeep.png"><h4>BEING BITSIAN IN RETROSPECT<br><br>PRADEEP KASHYAP</h4><p>Pradeep Kashyap is an entrepreneur and founder of MART, a rural marketing consultancy firm which works in emerging markets.</p><h4>6 August, 2020</h4></td>
+                    <td class="lecturers"><img src="img/siva.jpg"><h4>FILM WRITING<br><br>SIVA ANANTH</h4><p>The personality responsible for coming up, foreseeing, writing, editing, evaluating, and repeating cycles of these for the creation of films like 'Sachin-A Billion Dreams' and many more</p><h4>2 August, 2020</h4></td>
+                </tr>
+                <tr>
+                    <td class="lecturers"><img src="img/qiang.jpg"><h4>COMPUTATIONAL BIOLOGY AND CHEMISTRY<br><br>PROF. QIANG CUI</h4><p>Prof. Qiang Cui is a Professor of Chemistry at Boston University. His work involves developing and applying state-of-the-art computational tools</p><h4>23 July, 2020</h4></td>
+                    <td class="lecturers"><img src="img/gene.jpg"><h4>CYBER SECURITY<br><br>GENE SPAFFORD</h4><p>Nicknamed Spaf is an American professor of computer science at Purdue University and a leading computer security expert.</p><h4>23 July, 2020</h4></td>
+                    <td class="lecturers"><img src="img/david.jpg"><h4>CRYPTO CURRENCY<br><br>PROF.DAVID YERMACK</h4><p>David L. Yermack is the Albert Fingerhut Professor of Finance and Business Transformation at New York University Stern School of Business.</p><h4>12 July, 2020</h4></td>
+                    <td class="lecturers"><img src="img/sahaj.jpg"><h4>GMAT PREPARATION AND APPLICATIONS<br><br>SAHAJ DASOT</h4><p>He is a BITS Pilani ’15 batch Mechanical Engineering alumnus. He is currently an MBA Candidate at INSEAD, Class of 2020, having scored a very impressive 770 in GMAT</p><h4>27 June, 2020</h4></td>
+                </tr>
+                <tr>
+                    <td class="lecturers"><img src="img/anura.jpg"><h4>UPSC PREPARATION<br><br>ANURAJ JAIN</h4><p>Anuraj Jain secured AIR 24 in UPSC Civil Services Examination 2018 and he also scored AIR 21 in IFS 2017 exam</p><h4>14 June, 2020</h4></td>
+                    <td class="lecturers"><img src="img/subra.jpg"><h4>PUBLISHING RESEARCH PAPERS AND ENTREPRENEURSHIP<br><br>MR. SUBRAHMANYAM PULIPAKA</h4><p>Subrahmanyam Pulipaka is a BITS Pilani ’16 batch Electrical and Electronics Engineering student. He has published many research papers being a part of IEEE.</p><h4>3 June, 2020</h4></td>
+                </tr>
+            </table>
+            <center><a href="https://drive.google.com/file/d/1BMwvZQsBqcipkQFD7wEOy6tg7GK8nYe-/view" id="past_talks" target="_blank">PAST TALKS INFO</a></center>
+        </div>
+        <div id="aic">
+            <br><br>
+            <br><br>
+            <br><br>
+            <h1>APOGEE</h1>
+            <p>APOGEE, the ISO 9001:2008 certified technical fest of BITS, Pilani is a large scale event that has attracted connoissuers of engineering and technology over the years. It represents the zenith of science and engineering in a landscape of future vissionaries and scientists.</p><br>
+            <h1>APOGEE Innovation Challenge</h1>
+            <p>Apogee Innovation Challenge is a kernel event of Apogee, which provides a platform for students from different colleges of the country to work on the real life problem statements posed by companies. But how does it work?</p>
+            <ul>
+            <li>Problem Statement Released By Companies</li>
+            <li>Students Form Teams Of 1 To 3 Members</li>
+            <li>Teams Select Problem Statements And Start Working On It. They Have To Submit The Solution Before The Specified Deadline</li>
+            <li>Judges From Companies Select Top 5 Teams</li>
+            <li>Winners Are Usually Rewarded In Terms Of Cash Prizes, Internships Or Goodies</li></ul><br>
+            <h1>Why participate?</h1>
+            <p>A company can largely benifit from participating in AIC in the following ways:</p>
+                <ul>
+            <li>By Associating With Apogee Innovation Challenge, The Company Becomes An Event Partner Of Apogee And Would Be Publicised On The Apogee Website And Facebook Page.</li>
+            <li>The Company Can Use The Ingenuinity Of Some Of The Brightest Young Minds Of The Country To Get A Pool Of Innovative Approaches For Solving A Particular Problem.</li>
+            <li>Being One Of The Major Events Of Apogee And A Unique Concept, This Event Would Get Wide Media Coverages From Leading Media Sources In India.</li></ul>
+
+        </div>
+        <div id="team">
+            <br><br>
+            <br><br>
+            <br><br>
+            <center><h1>Professor in Charge</h1><br>
+            <a href="#team"><img src="img/prof-ic.png"></a>
+            </center>
+            <center><h1>Student Team</h1></center>
+        <table id="stu_team">
+            <tr>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/prez.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/secre.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/webdevlead.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/publead.png"></a></td>
+            </tr>
+            <tr>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/prez.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/secre.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/webdevlead.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/publead.png"></a></td>
+            </tr>
+            <tr>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/prez.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/secre.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/webdevlead.png"></a></td>
+                <td class="st_team_mem"><a href="#stu_team"><img src="img/publead.png"></a></td>
+            </tr>
+        </table>
+        </div>
+        <div id="contact">
+            <br><br>
+            <br><br>
+            <br><br>
+            
+            <center>
+                <h1>Contact Us</h1>
+            </center>
+            <div class="con_details"><img src="img/map.png" style="padding: 0px 10px 0px 0px;"> <p>BITS Pilani <br> Pilani, Rajasthan 332531
+            </p></div>
+            <div class="con_details"><img src="img/address.png" style="padding: 0px 10px 0px 0px;"><p>f20190124@pilani.bits-pilani.ac.in</p></div>
+            <div class="con_details"><img src="img/phone.png" style="padding: 0px 10px 0px 0px;"><p>+91 87088 58541</p>
+            </div>
+            <center>
+            <a href="https://www.facebook.com/EmbryoClub/" class="socials"target="_blank"><img src="img/fb.png" style="height:13px; width:13px;"></a>
+            <a href="https://www.instagram.com/bitsembryo/?hl=en" class="socials"target="_blank"><img src="img/insta.png" style="height:13px; width:13px;"></a>
+            <a href="https://www.linkedin.com/in/arnav-geet-verma-55112a253/" class="socials"target="_blank"><img src="img/in.jpg" style="height:13px; width:13px;"></a>
+        </center>
+            <br><br>
+            <br><br>
+        </div>
+        
+    </div>
+    <div id="footer">
+        <h2 style="font-family: Helvetica, sans-serif; margin-left: 19%; padding-top:52px;font-size:19px;letter-spacing: 3px;"><a href="#body" style=" color:white;">BITS Embryo</a></h2>
+    </div>  
+    </body>
+</html>
